@@ -2,9 +2,9 @@
 #Parameters file used by LINSIM.vXX.R. To use this file, you must put its file reference into Controls.txt. Then run LINSIM
 #Trial 1(i): Basic Lotka-Volterra example
 Variable     	  Alga     Grazer      
-SelfLoss		    0.25     0.25   
-SelfGrow  	    0.75     0           
-Harvest.Alga  	0        0.4 
+SelfLoss		      0.25     0.25   
+SelfGrow  	     0.75     0           
+Harvest.Alga  	 0        0.4 
 Assim.Alga   	  0        0.2   
 Bmass.init      3        3     
 Gmax            NA       3     
