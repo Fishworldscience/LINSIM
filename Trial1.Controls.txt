@@ -1,0 +1,19 @@
+#Creator: A J R Cotter, JC@fishworldscience.com, zenodo community=LINSIMsimulator, uploaded 21 Nov 2024
+#Controls.txt for Trial1 runs. To use this file, copy it, changing name to Controls.txt, and store in the same folder as LINSIM.vXX.R and LINSIMfunctions.R
+Control             Value    Text                                               #NAs are required in unused column places; suggested values for controls are written in ( ) below
+AdviceLevel         2        NA                                                 #0 => no advisory messages, 1 => some, including defaults, 2=> all  (2)
+YearLength          1        NA                                                 #N of Deltas per year (1)
+Years.sim           1000     NA                                                 #Total simulation period required (units=integer years, or Deltas in Trial 1) (1000)
+Progress.rep        1000     NA                                                 #N of projections between on-screen reports of projections completed and CPU times (1000)
+proj.SLorder        3        NA                                                 #1, 2 or 3 => order of Taylor series for projected self losses. 3 best for minimal LV model; 1 is required for all others (3)
+View.controls       0        NA                                                 #View Controls.txt (this file)on screen for checking?  0=no, 1=yes  (0)
+View.params         1        NA                                                 #View Params.file on screen for checking?  0=no, 1=yes              (1)
+View.comps          1        NA                                                 #View component-type table prepared from harvest coeffs on screen for checking? 0=no, 1=yes  (1)
+KeyItemWidth        25       NA                                                 #N of chars allowed for item names in graph keys(25); prevents truncated names and bulky keys (depends on screen size)
+KeyLineLength       90       NA                                                 #N of chars (total) per line of the graph key (90); vary for WinWidth                         (depends on screen size)
+WinHeight           5        NA                                                 #sets standard height of graph windows in "inches" for your machine; alter with W option in menus (5)  (depends on screen size)
+WinWidth            9.5      NA                                                 #sets standard width of graph windows in "inches" for your machine; alter with W option in menus  (9.5)(depends on screen size)
+Parameters.file     NA       C:\\LINSIM\TRIALinputs\Trial1.Run1.txt             #Params.file ref in col 2, required                                                      (C:\LINSIM\TRIALinputs\Trial1\Trial1.Run1.txt)
+#Environ.file        NA       C:\LINSIM\TRIALinputs\Trial8.Envir.txt            #Environment.file ref in col 2, not needed for Trial 1                                   (comment out with # at start of line)
+GraphLabel          NA       NA                                                 #Labeling for graphs; default is file.ref, date and time. Alternatives in col 2 are 'date', 'time', 'Params.file' (NA)
+Col.plots           1        NA                                                 #Graph plots in color? 0=no, 1=yes  (1)
